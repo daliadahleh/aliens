@@ -24,6 +24,7 @@
     <div class="hero text-center">
       <h1>UFO Sightings</h1>
       <p>The Truth is Out There</p>
+      <p>(that they're probably meteors or planes..)</p>
     </div>
     <div class="container">
       <div class="row margin-top-50">
@@ -36,8 +37,32 @@
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
+                        <label for="date">Enter a date</label>
                         <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="shape">Choose a shape</label>
+                        <select class="form-control" id="shape">
+                          <option >Any</option>
+                        </select>
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="country">Choose a country</label>
+                        <select class="form-control" id="country">
+                          <option >Any</option>
+                        </select>
+                      </li>
+                      <li class="filter list-group-item" id="state-box" style="display:none">
+                        <label for="state">Choose a state</label>
+                        <select class="form-control" id="state">
+                          <option >Any</option>
+                        </select>
+                      </li>
+                      <li class="filter list-group-item" id="city-box" style="display:none">
+                        <label for="city">Choose a city</label>
+                        <select class="form-control" id="city">
+                          <option >Any</option>
+                        </select>
                       </li>
                     </ul>
                   </div>
